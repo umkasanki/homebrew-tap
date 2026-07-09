@@ -13,9 +13,7 @@ cask "allyclicker" do
     AllyClicker needs Accessibility permission to inject clicks:
       System Settings → Privacy & Security → Accessibility → enable AllyClicker
 
-    It is not notarized. If macOS blocks it on first launch, either install with
-      brew install --cask --no-quarantine allyclicker
-    or clear the quarantine flag:
+    It is not notarized. Clear the quarantine flag once so macOS lets it launch:
       xattr -dr com.apple.quarantine "/Applications/AllyClicker.app"
   EOS
 end

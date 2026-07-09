@@ -8,10 +8,14 @@ macOS dwell-click tool for head-tracker and pointer-only users.
 ```bash
 brew tap umkasanki/tap
 brew trust umkasanki/tap          # third-party taps must be trusted once
-brew install --cask --no-quarantine allyclicker
+brew install --cask allyclicker
 ```
 
-`--no-quarantine` is needed because AllyClicker is self-signed (not notarized).
+AllyClicker is self-signed (not notarized), so clear the quarantine flag once:
 
-After install, grant Accessibility:
+```bash
+xattr -dr com.apple.quarantine /Applications/AllyClicker.app
+```
+
+Then grant Accessibility:
 **System Settings → Privacy & Security → Accessibility → enable AllyClicker.**
