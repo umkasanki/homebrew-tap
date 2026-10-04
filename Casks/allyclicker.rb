@@ -1,6 +1,6 @@
 cask "allyclicker" do
-  version "0.1.6"
-  sha256 "3b2dc3748fc3c0af5b0d85c9907c0ebbdd19df1ea3c0d291a62fb31fbfcb1279"
+  version "0.2.0"
+  sha256 "8a1770f32066049e01558878576111c27c6832994e8eaa670c965750122909a4"
 
   url "https://github.com/umkasanki/ally-clicker/releases/download/v#{version}/AllyClicker-#{version}.dmg"
   name "AllyClicker"
