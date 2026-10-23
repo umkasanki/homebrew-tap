@@ -20,7 +20,10 @@ cask "allyclicker" do
 
   uninstall quit: "com.allyclicker.app"
 
-  zap trash: "~/Library/Preferences/com.allyclicker.app.plist"
+  zap trash: [
+    "~/Library/Application Support/AllyClicker",
+    "~/Library/Preferences/com.allyclicker.app.plist",
+  ]
 
   caveats <<~EOS
     AllyClicker needs Accessibility permission to inject clicks:
