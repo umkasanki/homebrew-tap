@@ -7,7 +7,7 @@ cask "allyclicker" do
   desc "Dwell-click accessibility tool for head-tracker and pointer-only users"
   homepage "https://github.com/umkasanki/ally-clicker"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "AllyClicker.app"
 

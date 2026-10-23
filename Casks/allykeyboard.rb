@@ -15,7 +15,7 @@ cask "allykeyboard" do
   desc "On-screen keyboard for head-tracker and pointer-only users"
   homepage "https://github.com/umkasanki/ally-keyboard"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "AllyKeyboard.app"
 
