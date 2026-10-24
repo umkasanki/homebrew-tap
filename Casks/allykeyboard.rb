@@ -1,6 +1,7 @@
 # Homebrew Cask for AllyKeyboard — lives in umkasanki/homebrew-tap as
-# Casks/allykeyboard.rb. The release workflow keeps `version` and `sha256`
-# there in step with each release.
+# Casks/allykeyboard.rb. The release workflow does NOT update it: after a
+# release is published, set `version` and `sha256` (of the release .dmg) here
+# by hand, then commit and push this tap.
 #
 # Install (users):
 #   brew tap umkasanki/tap
