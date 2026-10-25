@@ -8,8 +8,8 @@
 #   brew trust umkasanki/tap        # third-party taps must be trusted once
 #   brew install --cask allykeyboard
 cask "allykeyboard" do
-  version "1.3.7"
-  sha256 "6f7e3faba58575bc8d32eb1bdf19a5e302eb326fe78e1d01ac0f174dd99a7955"
+  version "1.3.8"
+  sha256 "03c3fe0346214b374b4203faa736ed372905a05da75316f1b697e1211dc8313b"
 
   url "https://github.com/umkasanki/ally-keyboard/releases/download/v#{version}/AllyKeyboard-#{version}.dmg"
   name "AllyKeyboard"
