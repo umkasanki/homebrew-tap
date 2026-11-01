@@ -7,8 +7,8 @@
 #   brew trust umkasanki/tap        # third-party taps must be trusted once
 #   brew install --cask silver-rain-mini
 cask "silver-rain-mini" do
-  version "1.0.0"
-  sha256 "f7dd07d4c55e8f1a440c6203896e13d4459e3fe6b9c04e3f93469b5684dbd30c"
+  version "1.0.1"
+  sha256 "80d654697587c614c932dc67473988b2c3fb8907f57b72635f9d7e4b63f9c923"
 
   url "https://github.com/umkasanki/SilverRainMini/releases/download/v#{version}/SilverRainMini-#{version}.dmg"
   name "Silver Rain Mini"
